@@ -1,0 +1,162 @@
+body {
+  background-color: rgb(44, 46, 52);
+}
+#border {
+  border: 5px solid transparent;
+  border-image: url(border.png) 50 round;
+}
+.img {
+  height: 65px;
+}
+#div1 {
+  color: rgb(0, 204, 204);
+}
+li {
+  display: inline;
+  text-align: left;
+  font-weight: 10px;
+  margin-right: 10px;
+}
+#div2 {
+  background-color: rgb(255, 255, 255);
+}
+
+.pic {
+  margin: 30px;
+  border: 2px solid #000;
+  height: 266px;
+  width: 734px;
+  object-fit: cover;
+}
+.column1 {
+  color: rgb(43, 45, 52);
+  background-color: rgb(1, 204, 204);
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50px;
+  width: 599px;
+  font-weight: bolder;
+}
+.column2 {
+  margin: 20px;
+  float: right;
+}
+#div3 {
+  background-color: rgb(44, 46, 52);
+  border: 1px solid #000;
+  text-align: center;
+  height: 50px;
+  width: 599px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bolder;
+}
+#div4 {
+  color: rgb(44, 46, 52);
+  font-weight: bold;
+  font-family: century;
+}
+#div5 {
+  float: left;
+  width: 320px;
+  margin: 20px;
+}
+#div6 {
+  float: left;
+  width: 349px;
+  margin: 20px;
+}
+#div7 {
+  float: right;
+  width: 210px;
+  margin: 20px;
+  margin-right: 30%;
+}
+.line {
+  height: 90px;
+  width: 2px;
+  float: left;
+  background-color: rgb(0, 204, 204);
+  margin: 20px;
+}
+.linej {
+  height: 90px;
+  width: 2px;
+  float: left;
+  background-color: rgb(0, 204, 204);
+  margin: 20px;
+}
+footer {
+  background-color: rgb(0, 204, 204);
+  color: rgb(44, 46, 52);
+  text-align: center;
+  position: relative;
+  clear: both;
+  height: 25px;
+  margin-top: -200px;
+}
+#div8 {
+  width: 700px;
+  height: 28px;
+  padding: auto;
+}
+@media (max-width: 900px) {
+  .pic {
+    max-width: 100%;
+  }
+  .img {
+    position: absolute;
+    float: left;
+  }
+  .column2 {
+    max-width: 100%;
+    float: left;
+  }
+  #div5,
+  #div6,
+  #div7 {
+    width: 200px;
+  }
+  footer {
+    background-color: rgb(44, 46, 52);
+    color: white;
+  }
+  .krecha {
+    height: 1px;
+    width: 1px;
+  }
+  .krechaj {
+    height: 1px;
+    width: 1px;
+  }
+}
+
+@media (max-width: 600px) {
+  .pic {
+    height: 280px;
+    width: 270px;
+    object-fit: cover;
+  }
+  #div5,
+  #div6,
+  #div7 {
+    width: 100px;
+  }
+  .column1,
+  #div3 {
+    width: 300px;
+  }
+  .krecha {
+    height: 1px;
+    width: 1px;
+  }
+  .krechaj {
+    height: 1px;
+    width: 1px;
+  }
+}

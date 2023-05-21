@@ -1,0 +1,55 @@
+@media (max-width: 900px) {
+  .pic {
+    max-width: 100%;
+  }
+  .img {
+    position: absolute;
+    float: left;
+  }
+  .column2 {
+    max-width: 100%;
+    float: left;
+  }
+  #div5,
+  #div6,
+  #div7 {
+    width: 200px;
+  }
+  footer {
+    background-color: rgb(44, 46, 52);
+    color: white;
+  }
+  .krecha {
+    height: 1px;
+    width: 1px;
+  }
+  .krechaj {
+    height: 1px;
+    width: 1px;
+  }
+}
+
+@media (max-width: 600px) {
+  .pic {
+    height: 280px;
+    width: 270px;
+    object-fit: cover;
+  }
+  #div5,
+  #div6,
+  #div7 {
+    width: 100px;
+  }
+  .column1,
+  #div3 {
+    width: 300px;
+  }
+  .krecha {
+    height: 1px;
+    width: 1px;
+  }
+  .krechaj {
+    height: 1px;
+    width: 1px;
+  }
+}
